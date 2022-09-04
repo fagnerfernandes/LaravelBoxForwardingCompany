@@ -1,0 +1,9 @@
+.bx-first-page:before {
+    /* content: "\039e"; */
+    /* content: "←"; */
+    /* content: "\f0c9"; */
+    content: "\f0c9";
+    background-image: url("../images/bars.png");
+    background-size: 21px;
+    background-repeat: no-repeat;
+}

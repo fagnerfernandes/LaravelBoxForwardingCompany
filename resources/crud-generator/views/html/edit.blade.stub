@@ -1,0 +1,40 @@
+@extends('layouts.app')
+
+@section('title')
+    %%modelName%%
+@endsection
+
+@section('breadcrumbs')
+    <li><a href="{{ route('customer.addresses.index') }}"><span>endereços</span></a></li>
+    <li class="active"><span>%%modelName%%</span></li>
+@endsection
+
+@section('wrapper')
+    <!-- Row -->
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card round-10 w-100">
+                <div class="card-header">
+                    <div class="pull-left">
+                        <h6 class="panel-title txt-dark"><i class="zmdi zmdi-pin"></i> %%modelName%%</h6>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="card-body">
+                    <div class="panel-body">
+                        <div class="form-wrap">
+                            <a href="{{ url('/%%routeGroup%%%%viewName%%') }}" title="Back"><button class="btn btn-warning btn-sm"><i class="fa fa-arrow-left" aria-hidden="true"></i> voltar</button></a>
+                            <br />
+                            <form action="{{ url('/%%routeGroup%%%%viewName%%/' . $%%crudNameSingular%%->%%primaryKey%%) }}" method="POST" enctype="multipart/form-data">
+                                @method('PUT')
+                                @csrf
+                                @include ('%%viewTemplateDir%%.form')
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Row -->
+@endsection

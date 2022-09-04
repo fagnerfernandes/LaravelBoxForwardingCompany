@@ -1,0 +1,14 @@
+{
+    "name": "vendor_name/Http",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "roger",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    }
+}

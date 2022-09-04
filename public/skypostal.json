@@ -1,0 +1,133 @@
+{
+  "user_info": {
+    "user_code": "",
+    "user_key": "",
+    "app_key": ""
+  },
+  "shipment_info": {
+    "copa_id": 1459,
+    "box_id": 981900,
+    "merchant": {
+      "name": "COMPANY LLC",
+      "email": "noreply@company.com",
+      "address": {
+        "country_code": null,
+        "country_iso_code": null,
+        "country_name": null,
+        "state_code": null,
+        "state_name": "STATE",
+        "state_abbreviation": null,
+        "county_code": null,
+        "county_name": null,
+        "city_code": 0,
+        "city_name": "CITY",
+        "zip_code": "ZIP",
+        "town_code": null,
+        "town_name": null,
+        "neighborhood": null,
+        "address_01": "ADDRESS",
+        "address_02": null,
+        "address_03": null
+      },
+      "return_address": {
+        "country_code": null,
+        "country_iso_code": null,
+        "country_name": null,
+        "state_code": null,
+        "state_name": null,
+        "state_abbreviation": null,
+        "county_code": null,
+        "county_name": null,
+        "city_code": 0,
+        "city_name": null,
+        "zip_code": null,
+        "town_code": null,
+        "town_name": null,
+        "neighborhood": null,
+        "address_01": null,
+        "address_02": null,
+        "address_03": null
+      },
+      "phone": { "phone_type": 2, "phone_number": "8888888888" }
+    },
+    "shipper": null,
+    "sender": null,
+    "consignee": {
+      "first_name": "John",
+      "last_name": "",
+      "email": "client@gmail.com",
+      "id_number": "43443434343",
+      "id_search_string": "shipping_id: 71234444",
+      "address": {
+        "country_code": null,
+        "country_iso_code": "BR",
+        "country_name": "Brazil",
+        "state_code": 0,
+        "state_name": "RJ",
+        "county_code": null,
+        "county_name": null,
+        "city_code": 0,
+        "city_name": "",
+        "zip_code": "",
+        "neighborhood": null,
+        "address_01": "",
+        "address_02": " ",
+        "address_03": ""
+      },
+      "phone": { "phone_type": 2, "phone_number": "8888888888" }
+    },
+    "options": {
+      "include_label_data": false,
+      "include_label_zpl": true,
+      "zpl_encode_base64": true,
+      "zpl_label_dpi": 203,
+      "include_label_image": false,
+      "include_label_image_format": "PNG",
+      "manifest_type": "DDU",
+      "insurance_code": 0,
+      "rate_service_code": 301,
+      "generate_label_default": false,
+      "return_if_exists": false,
+      "additional_services": {
+        "zipcode_validation": 1,
+        "id_validation": 0,
+        "harmonization_code_validation": 0
+      }
+    },
+    "data": {
+      "external_tracking": "company-71234528",
+      "reference_date": "2022-07-25T13:15:00-06:00",
+      "reference_number_01": null,
+      "reference_number_02": null,
+      "reference_number_03": null,
+      "tax": null,
+      "value": "30.00",
+      "discount": 0,
+      "freight": "105.14",
+      "insurance": 1,
+      "currency_iso_code": "USD",
+      "dimension_01": "11",
+      "dimension_02": "13",
+      "dimension_03": "12",
+      "dimension_unit": "IN",
+      "weight": "17.50",
+      "weight_unit": "LB",
+      "items": [
+        {
+          "hs_code": "851770",
+          "family_product": "TEL",
+          "serial_number": null,
+          "imei_number": null,
+          "description": "Iphones",
+          "product_brand": "",
+          "product_name": "",
+          "product_model": "",
+          "quantity": "3.00",
+          "tax": null,
+          "value": "30.00",
+          "weight": "5.00"
+        }
+      ]
+    }
+  }
+}
